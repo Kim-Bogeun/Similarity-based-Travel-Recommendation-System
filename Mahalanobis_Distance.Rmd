@@ -1,0 +1,73 @@
+---
+title: "Mahalanobis_Distance"
+author: "JINHYEOK, KIM"
+date: "2023-07-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Library
+
+```{r}
+library(dplyr)
+library(tidyverse)
+library(caret)
+library(data.table)
+library(ggplot2)
+library(sf)
+library(SDPDmod)
+```
+
+
+```{r}
+data <- read.csv("타겟도시.csv", header=T, fileEncoding="cp949")
+data
+```
+
+```{r}
+data1 = data
+data1[,3] = sqrt(data[,3])
+data1
+```
+
+```{r}
+mahalanobis(data1[,c(2,3)], c(0,0), cov(data1[,c(2,3)]))
+```
+
+## 표준화 거리
+
+```{r}
+dist(scale(rbind(c(0,0),data1[,c(2,3)])))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
