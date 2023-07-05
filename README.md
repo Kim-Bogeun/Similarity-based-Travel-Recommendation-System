@@ -15,7 +15,8 @@ Similarity-based-Travel-Recommendation-System
 3. Clustering
 - 전기사용량과 생활인구를 기준으로 한 클러스터링 진행으로 종합에너지스테이션이 우선적으로 필요한 행정동 타켓 클러스터 선정 및 세부 분석 진행
 
-4. LDA (Latent Dirichlet Allocation)
+4. Similarity Calculation
+- LDA (Latent Dirichlet Allocation)
 - 머신러닝 모델을 사용하여 전기차 충전소 개수에 가장 큰 영향을 미치는 요소를 파악하였고, 이러한 요소들을 이후 입지선정에 중요한 판단기준으로 반영
 
 5. Recommendation System
