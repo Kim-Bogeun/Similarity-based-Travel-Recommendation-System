@@ -1,6 +1,6 @@
 # 제11회 문화데이터 활용 경진대회
-Similarity-based-Travel-Recommendation-System
-: Project of Sungkyunkwan University Statistical Analytics Club P-SAT in 2023-1st semester
+K-관광 활성화를 위한 국내외 도시 유사도 분석 및 여행지 추천
+: Similarity-based-Travel-Recommendation-System
 
 1. Preprocessing
 - 개괄 : 2022년 데이터를 기준으로 데이터 전처리 진행
